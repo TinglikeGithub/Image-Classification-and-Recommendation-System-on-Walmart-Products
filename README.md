@@ -50,10 +50,11 @@ The aim of the project is to classify Walmart products and to make recommendatio
 
 ## II.Text and Image-based Recommendation Component
 A combination of image feature extraction using a pre-trained VGG16 model, NLP, and collaborative filtering.
+
 ### 1. Image-based recommendation
 - Etracted features using a pre-trained VGG16 model
 - computed cosine similarities between the feature vectors to identify the similarity between products
 ### 2. Text-based recommendation 
 - Used CountVectorizer from scikit-learn to convert the text data (titles) into numerical vectors
 ### 3. Combination of image and text recommendation
-- Designed the combined_recommend function combines both textual (word-2-vec) and image features to recommend similar products, allowing to specify weights for each feature type.
+- Designed the combined_recommend function combines both textual and image features to recommend similar products, allowing to specify weights for each feature type.
