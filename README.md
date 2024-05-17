@@ -56,4 +56,4 @@ A combination of image feature extraction using a pre-trained VGG16 model, NLP, 
 ### 2. Text-based recommendation 
 - Used CountVectorizer from scikit-learn to convert the text data (titles) into numerical vectors
 ### 3. Combination of image and text recommendation
-designed the combined_recommend function combines both textual (word-2-vec) and image features to recommend similar products, allowing to specify weights for each feature type.
+- Designed the combined_recommend function combines both textual (word-2-vec) and image features to recommend similar products, allowing to specify weights for each feature type.
