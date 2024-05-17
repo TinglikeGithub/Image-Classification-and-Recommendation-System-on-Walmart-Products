@@ -15,7 +15,7 @@ The aim of the project is to classify Walmart products and to make recommendatio
 
 - **Recommendation system**: Utilized a pre-trained VGG16 model for feature extraction in the recommendation system.
 
-# I. Image Classification component: Convolutional Neural Network (CNN)
+### I. Image Classification component: Convolutional Neural Network (CNN)
 
 1. Model Architecture:
 Convolutional Layers: Three convolutional layers are employed. The first layer has 64 filters, followed by max-pooling with a (2, 2) window size and 20% dropout. The subsequent layers have double the number of filters and follow the same pattern.
