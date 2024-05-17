@@ -13,7 +13,7 @@ The aim of the project is to classify Walmart products and to make recommendatio
 
 - **Image Classification**: Used Convolutional Neural Networks (CNNs) for image classification.
 
-- **Recommendation system**: Utilized a pre-trained VGG16 model for feature extraction in the recommendation system.
+- **Recommendation system**: Combined both textual and image features to recommend similar products. 
 
 ## I. Image Classification component: Convolutional Neural Network (CNN)
 
