@@ -28,3 +28,25 @@ The aim of the project is to classify Walmart products and to make recommendatio
 ### 3. Optimize model performance by tuning hyperparameters:
 - Hyperparameters: dense_units, dropout rate, filters, learning rate
 - Best combination: dense_units=64, dropout rate=0.2, filters = 64, learning rate= 0.001
+
+# **Experiments and Results**
+
+### **Results**:
+
+- Model Training Performance:
+
+| Experiment | Train Accuracy | Validation Accuracy | Train Loss | Validation Loss |
+| ---------- | -------------- | ------------------- | ---------- | --------------- |
+| Base Model | 72.02%         | 52.29%              | 0.8540     | 1.8072          |
+
+```
+   (1) The base model achieved a training accuracy of 72.02% and a validation accuracy of 52.29% after 10 epochs
+   (2) Early stopping was employed to prevent overfitting
+   (3) Training will be stopped if three consecutive epochs of no improvement in validation accuracy
+```
+
+- Model Testing Performance:
+
+| Test Accuracy: | 52.52% |
+| -------------- | ------ |
+| Test Loss:     | 1.7492 |
